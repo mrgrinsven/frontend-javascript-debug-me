@@ -3,7 +3,7 @@ const weight = 82;
 
 const BMI = weight / (height * height);
 
-console.log("Your BMI is: " + BMI);
+console.log("Your BMI is: " + BMI.toFixed());
 
 if (BMI > 25) {
   console.log("Depending on your build, you might be overweight");
